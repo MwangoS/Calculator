@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operations", "Operations\Op
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperationsTests", "OperationsTests\OperationsTests.csproj", "{8C57DB59-CA99-4E17-89BB-3A06864115DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculator", "BasicCalculator\BasicCalculator.csproj", "{42204128-ACF3-4E3D-B180-7F307800E0D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCalculator", "BasicCalculator\BasicCalculator.csproj", "{42204128-ACF3-4E3D-B180-7F307800E0D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculatorTests", "BasicCalculatorTests\BasicCalculatorTests.csproj", "{67CD234B-41EC-43FD-9B28-B83A11016D20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{42204128-ACF3-4E3D-B180-7F307800E0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42204128-ACF3-4E3D-B180-7F307800E0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42204128-ACF3-4E3D-B180-7F307800E0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CD234B-41EC-43FD-9B28-B83A11016D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CD234B-41EC-43FD-9B28-B83A11016D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CD234B-41EC-43FD-9B28-B83A11016D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CD234B-41EC-43FD-9B28-B83A11016D20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
