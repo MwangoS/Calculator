@@ -20,11 +20,11 @@ namespace BasicCalculator
     public class Calculator : IAdd, IDivide, ISubtract, IMultiply, ISquare
     {
         
-        Adding add = new Adding();
-        Div divide = new Div();
-        Subtraction Subtract = new Subtraction();
-        Multiplication Multiply = new Multiplication();
-        Square Square = new Square();
+        private readonly Adding add = new Adding();
+        private readonly Div divide = new Div();
+        private readonly Subtraction Subtract = new Subtraction();
+        //private readonly Multiplication Multiply = new Multiplication();
+        private readonly Square Square = new Square();
 
         public dynamic result;
         private readonly int array;

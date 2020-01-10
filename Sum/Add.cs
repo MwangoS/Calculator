@@ -10,6 +10,7 @@ namespace Add
     public class Adding : IAdd
     {
         public dynamic result;
+
         public dynamic Add(dynamic a, dynamic b)
         {
             result = Addition.Sum(a, b);

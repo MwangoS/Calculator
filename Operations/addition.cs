@@ -2,7 +2,7 @@
 
 namespace Operations
 {
-    public class Addition
+    public static class Addition
     {
         public static int Sum(int a, int b)
         {
@@ -25,10 +25,23 @@ namespace Operations
             return c;
         }*/
 
+<<<<<<< Updated upstream
         /*public static dynamic Sum(object p, dynamic[] c)
         {
             throw new NotImplementedException();
         }*/
+=======
+        public static int Sum(int[] arrayA)
+        {
+            int c = 0;
+            foreach(int a in arrayA)
+            {
+                c = Sum(a, c);
+            }
+            return c;
+        }
+
+>>>>>>> Stashed changes
     }
 
     
